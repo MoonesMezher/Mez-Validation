@@ -1,0 +1,16 @@
+{
+  "name": "mez-validation",
+  "version": "1.0.0",
+  "homepage": "https://github.com/MoonesMezher/Mez-Validation ",
+  "description": "node js library to achive validation on data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Moones Mezher",
+  "license": "MIT",
+  "keywords": [
+    "validation",
+    "nodejs"
+  ]
+}
