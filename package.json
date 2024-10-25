@@ -1,7 +1,7 @@
 {
   "name": "mez-validation",
   "version": "1.0.0",
-  "homepage": "https://github.com/MoonesMezher/Mez-Validation ",
+  "homepage": "https://github.com/MoonesMezher/Mez-Validation",
   "description": "node js library to achive validation on data",
   "main": "index.js",
   "scripts": {
