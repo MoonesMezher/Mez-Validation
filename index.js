@@ -173,6 +173,10 @@ const validateData = (output, arr) => {
                     }
                 }
 
+                if(!element.data) {
+                    continue;
+                }
+
                 // string type
                 if(element2 === 'string') {
                     if(typeof element.data !== 'string') {
@@ -762,7 +766,7 @@ const validateData = (output, arr) => {
                 }
 
                 // data value has X
-                if(element2.includes('in:') && !element2.startsWith('not-')) {
+                if(element2.includes('in:') && (!element2.startsWith('not-') && !element2.startsWith('min'))) {
                     const val = element2.split(":")[1]
                     
                     if(!Array.isArray(element.data)) {
